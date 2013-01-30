@@ -1,0 +1,38 @@
+@font-face {
+	font-family: 'porcelain';
+	src: url('porcelain.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+html, body {
+	margin: 0px;
+	background-color: #EEE;
+}
+
+table {
+	height: 100%;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+td {
+	font-family: 'porcelain', serif;
+	font-size: 3em;
+	color: #111;
+	vertical-align: center;
+	text-align: center;
+	text-shadow: 1px 1px 0 #EEE, 0 0 0.2em #333;
+}
+
+#title {
+	font-size: 250%;
+	line-height: 15px;
+}
+
+#acanvas {
+	position: absolute; 
+	top: 0px;
+	left: 0px;
+	z-index: 9001;
+} 
