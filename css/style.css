@@ -11,9 +11,11 @@ html, body {
 }
 
 table {
+	position: absolute;
 	height: 100%;
 	width: 100%;
 	border-collapse: collapse;
+	z-index:2;
 }
 
 td {
@@ -34,5 +36,5 @@ td {
 	position: absolute; 
 	top: 0px;
 	left: 0px;
-	z-index: 9001;
+	z-index: 1;
 } 
